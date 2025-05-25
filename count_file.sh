@@ -2,7 +2,7 @@
 
 # Check if argument is provided
 if [ -z "$1" ]; then
-  echo "Usage: $0 </scripting/Assignment>"
+  echo "Usage: $0 <absolute-directory-path>"
   exit 1
 fi
 

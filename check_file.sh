@@ -2,7 +2,7 @@
 
 # Check if argument is provided
 if [ -z "$1" ]; then
-  echo "Usage: $0 <check_file.txt>"
+  echo "Usage: $0 <filename>"
   exit 1
 fi
 
